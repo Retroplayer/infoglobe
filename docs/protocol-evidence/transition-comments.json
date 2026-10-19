@@ -1,0 +1,26 @@
+[
+  {
+    "source": "https://gist.github.com/kongmunist/a8bdadbacda4bcb129cd183f2f0fffc5#gistcomment-4368000",
+    "author": "kongmunist",
+    "posted": "2022-11-13T16:43:26Z",
+    "body": "Hello! I'm excited to share this code with you. I'm currently using it to control my own Infoglobe, so this code is known working.\r\nYou'll need to download the IRremoteESP8266 library by David Conran et al., available in the Arduino Library Manager or at their [Github repo](https://github.com/crankyoldgit/IRremoteESP8266). \r\n\r\nFeel free to ask any questions if you have trouble getting it running. Enjoy!"
+  },
+  {
+    "source": "https://gist.github.com/kongmunist/a8bdadbacda4bcb129cd183f2f0fffc5#gistcomment-4383041",
+    "author": "kongmunist",
+    "posted": "2022-11-28T00:09:41Z",
+    "body": "The transition effects can be changed by using a new number from 0-37 on line 115, the possible options are:\r\n// 1 msg flies in CW, erases old\r\n// 0 same as 1, CCW\r\n\r\n// 2 message flies in two halves like a pincer, erasing the old msg\r\n\r\n// 3 each pixel fades and then fades back in\r\n\r\n// 4 same as 5 but CW\r\n// 5 new fills in by erasing stationary old CCW, eraser line reveals newmsg while deleting old msg\r\n// 7 old msg leaves by flying CCW, new msg appears stationary underneath\r\n// 8 grow down by row, grow up\r\n\r\n// 9 shrink old msg to center horizontally, then expand from center\r\n// 10 interesting fill in horizontally, alternating lines from the top. \r\n// 11 phase out each letter from the horizontal center, phase in from outside.\r\n\r\n// 12 replace all letters in circle, one at a time, CCW\r\n// 13 12 but CW\r\n\r\n// 14 old message replaced in circle, every other letter at a time, CCW\r\n// 15 14 but CW\r\n\r\n// 16 old down, new up\r\n// 17 old up, new donw\r\n// 18 every letter replaced at once by dropping in, new letters come from above\r\n// 19 18 but from below\r\n\r\n// 21 Erases in loop, then places back\r\n\r\n// 24 flies up from bottom and bounces off the top, mirroring once\r\n// 25 24 but from the top\r\n\r\n// 26 drop and replace, from L to R\r\n// 28 drop and replace, random\r\n// 30 pluck and replace, in order left to right\r\n// 33 pluck and replace, random\r\n// 34 each letter fade out from right\r\n// 35-37 all variations on 34\r\n"
+  },
+  {
+    "source": "https://gist.github.com/kongmunist/a8bdadbacda4bcb129cd183f2f0fffc5#gistcomment-4383077",
+    "author": "DavidBerdik",
+    "posted": "2022-11-28T01:00:14Z",
+    "body": "> // 21 Erases in loop, then places back\r\n\r\n20 does the same thing as 21, except it goes counterclockwise."
+  },
+  {
+    "source": "https://gist.github.com/kongmunist/a8bdadbacda4bcb129cd183f2f0fffc5#gistcomment-4383080",
+    "author": "DavidBerdik",
+    "posted": "2022-11-28T01:02:11Z",
+    "body": "> // 26 drop and replace, from L to R\r\n\r\n27 is the same, except from right to left."
+  }
+]

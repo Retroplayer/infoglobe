@@ -1,0 +1,13 @@
+; FIFO: bit count minus one, then MSB-first data words (zero padded).
+; Each bit lasts 33 PIO clocks. GPIO is the carrier module's SIG, not 38 kHz.
+.program transmit
+.wrap_target
+    pull block
+    mov x, osr
+    pull block
+bitloop:
+    out pins, 1 [31]
+    jmp x-- bitloop
+    set pins, 0
+    irq 0
+.wrap

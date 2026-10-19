@@ -1,0 +1,113 @@
+{
+  "accessed": "2026-10-19",
+  "records": [
+    {
+      "file": "motherboard-1.pdf",
+      "url": "https://img1.wsimg.com/blobby/go/fa240f28-8a10-4d1d-921e-7caf69b66449/downloads/ba533831-3b3b-4ef6-801e-e2aca89f93e1/motherboard%201.pdf?ver=1792345145029",
+      "sha256": "2b7624ab5f9a0d13ea7c7836d329479d0f3691995f59326657c7465a107ae9b3",
+      "bytes": 5668840,
+      "retained_in_repository": false
+    },
+    {
+      "file": "motherboard-2.pdf",
+      "url": "https://img1.wsimg.com/blobby/go/fa240f28-8a10-4d1d-921e-7caf69b66449/downloads/c55b8d39-77a7-4b8d-9064-e5f137c5c5e5/motherboard%202.pdf?ver=1792345145029",
+      "sha256": "cefe860dce5bc38ef221e679511181760aebddd02002d9c1b14bd9963d2d6818",
+      "bytes": 9991988,
+      "retained_in_repository": false
+    },
+    {
+      "file": "motherboard-3.pdf",
+      "url": "https://img1.wsimg.com/blobby/go/fa240f28-8a10-4d1d-921e-7caf69b66449/downloads/6a110d58-f9e0-4dbd-a0a8-73b4cd84c5be/motherboard%203.pdf?ver=1792345145029",
+      "sha256": "3a43356ff1903ca41f64049375d7c4813bc6b8aeee76e182a6c6653eaae644b3",
+      "bytes": 9551766,
+      "retained_in_repository": false
+    },
+    {
+      "file": "motherboard-4.pdf",
+      "url": "https://img1.wsimg.com/blobby/go/fa240f28-8a10-4d1d-921e-7caf69b66449/downloads/b25440f0-ae99-4fc7-a6a1-91f518a3c61c/motherboard%204.pdf?ver=1792345145029",
+      "sha256": "9ef045f36e6bf80d33cb40ecc5d3549ba797d39622802a16288b06ace7e454a6",
+      "bytes": 9997012,
+      "retained_in_repository": false
+    },
+    {
+      "file": "led-board-1.pdf",
+      "url": "https://img1.wsimg.com/blobby/go/fa240f28-8a10-4d1d-921e-7caf69b66449/downloads/17f8327b-dd51-4c90-8c1d-cf3129811fe3/led%20board%201.pdf?ver=1792345145052",
+      "sha256": "c96a6513551380abec8e781aa86cf8f0d62feceaa6d79d86a12dd73f31aa1edc",
+      "bytes": 2176812,
+      "retained_in_repository": false
+    },
+    {
+      "file": "led-board-2.pdf",
+      "url": "https://img1.wsimg.com/blobby/go/fa240f28-8a10-4d1d-921e-7caf69b66449/downloads/6f22c95a-4c27-4053-aa5e-5526e96a6e82/led%20board%202.pdf?ver=1792345145052",
+      "sha256": "4748779ef1095907f2f24be6097161f3bcc33f44a9c713419aa8945a79e5952a",
+      "bytes": 3741893,
+      "retained_in_repository": false
+    },
+    {
+      "file": "ledboard-3.pdf",
+      "url": "https://img1.wsimg.com/blobby/go/fa240f28-8a10-4d1d-921e-7caf69b66449/downloads/cd2bd9f1-fb64-451d-8820-e4b6f140829c/ledboard%203.pdf?ver=1792345145052",
+      "sha256": "36bf482cd6b16a6fc479d02f07b3df4b7c048622b42f541f4037ef6280b2adaa",
+      "bytes": 2361926,
+      "retained_in_repository": false
+    },
+    {
+      "file": "reference-manual.pdf",
+      "url": "https://www.rbrobotics.com/Downloads/reference_man.pdf",
+      "sha256": "5a5b64d5c520074f159d3b7689f22e0a58de5a776a829f01f556f9a3508ec600",
+      "bytes": 880316,
+      "retained_in_repository": true
+    },
+    {
+      "file": "original-reference-manual.pdf",
+      "url": "https://www.theoldrobots.com/book75/RB5X_Manuals/RB5X%20Reference%20Manual.pdf",
+      "sha256": "84a74b7d3c342e539d0b9232aeb7dc61d73e16434588c47b037ae9a1abd064fe",
+      "bytes": 3842272,
+      "retained_in_repository": true
+    },
+    {
+      "file": "LedBoardSch.gif",
+      "url": "https://www.rbrobotics.com/images/schmatics/LedBoardSch.gif",
+      "sha256": "40c0f7a0f2b5644a320d8100c5a9bad82a0430b230ee35ff66ddcb99f290ba75",
+      "bytes": 17818,
+      "retained_in_repository": true
+    },
+    {
+      "file": "LedBoardScha.gif",
+      "url": "https://www.rbrobotics.com/images/schmatics/LedBoardScha.gif",
+      "sha256": "eece3341e43e9d9752809e6830ba940952e5ac2f342da1d17c65395de4b41e5a",
+      "bytes": 17409,
+      "retained_in_repository": true
+    },
+    {
+      "file": "back_plane.gif",
+      "url": "https://www.rbrobotics.com/images/back_plane.gif",
+      "sha256": "2706cdba8885e0150e1ac24a1d0238480b66f829fd6e5ca69567cbe019b1b21a",
+      "bytes": 7966,
+      "retained_in_repository": true
+    },
+    {
+      "file": "cpu-schematic.png",
+      "derived_from": "original-reference-manual.pdf",
+      "pdf_page": 78,
+      "processing": "rendered and rotated; detail cropped where indicated",
+      "sha256": "dbcbdafd23d223850ace785ffc95d953a8d9c666a01bd0d6933598638c7b73d8",
+      "retained_in_repository": true
+    },
+    {
+      "file": "motherboard-interconnect-schematic.png",
+      "derived_from": "original-reference-manual.pdf",
+      "pdf_page": 77,
+      "processing": "rendered and rotated; detail cropped where indicated",
+      "sha256": "af6a34a5a51e15fc3154fc3329267a95d01ec8c960a86172c6740d63ce853514",
+      "retained_in_repository": true
+    },
+    {
+      "file": "cpu-led-driver-detail.png",
+      "derived_from": "original-reference-manual.pdf",
+      "pdf_page": 78,
+      "processing": "rendered and rotated; detail cropped where indicated",
+      "sha256": "1473672d8d649a8de7a6086000445d7f2ac1af75ae182ea29618894289d69ea8",
+      "retained_in_repository": true
+    }
+  ]
+}
