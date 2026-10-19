@@ -92,7 +92,7 @@ class Decoder:
             self.runs.append((level, start, duration))
             if len(self.runs) >= 8192:
                 self.flush('analysis limit: 8192 runs without a packet delimiter')
-                self.taint = 'continuation after analysis limit; waiting for delimiter' 
+                self.taint = 'continuation after analysis limit; waiting for delimiter'
 
     def samples(self, start, payload):
         if len(payload) % 4:
