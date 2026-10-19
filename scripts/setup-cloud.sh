@@ -2,7 +2,7 @@
 set -euo pipefail
 # Dependency locations are outside the project checkout; no application files are modified.
 python -m venv /workspace/infoglobe-tools
-/workspace/infoglobe-tools/bin/pip install cmake==4.4.4 ninja==1.13.2 rp2040-pio-emulator==0.88.0
+/workspace/infoglobe-tools/bin/pip install cmake==4.4.4 ninja==1.13.2 rp2040-pio-emulator==0.88.0 pyserial==3.5
 if [ ! -d /workspace/pico-sdk ]; then
     git clone --depth 1 --branch 2.2.0 https://github.com/raspberrypi/pico-sdk.git /workspace/pico-sdk
 fi

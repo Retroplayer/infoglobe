@@ -9,3 +9,8 @@ cc -std=c11 -Wall -Wextra -Werror -fsanitize=address,undefined \
 "$test_binary"
 /workspace/infoglobe-tools/bin/python "$repo_dir/firmware/tests/test_pio.py" \
     "$repo_dir/firmware/build/transmit.pio.h"
+
+/workspace/infoglobe-tools/bin/python "$repo_dir/firmware/tests/test_capture_pio.py" \
+    "$repo_dir/firmware/build/capture.pio.h"
+cd "$repo_dir"
+/workspace/infoglobe-tools/bin/python -m unittest discover -s tools/tests -v

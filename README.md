@@ -2,6 +2,7 @@
 
 Olympia OL3000.2 research and customization for an RB5X robot dome display.
 
+- [IR recorder, analyzer, filtering and replay — setup and instructions](tools/README.md)
 - [RP2040 Zero experiment firmware and serial command reference](firmware/README.md)
 - [IR capture/analyzer design and experiment instructions](docs/ir-capture-plan.md)
 - [Protocol, commands and effects](docs/protocol.md)

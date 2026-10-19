@@ -1,6 +1,6 @@
 # Infoglobe IR reverse-engineering recorder and analyzer
 
-Status: agreed project goals and proposed implementation, 2026-10-19. **Capture firmware and the host analyzer described here are not implemented yet.** The existing [RP2040 transmitter firmware](../firmware/README.md) is built and available for replay and controlled experiments.
+Status: design goals, 2026-10-19. A first implementation is now available: [recorder firmware and host-tool instructions](../tools/README.md). The current implementation streams packed samples rather than on-device run-length compression, uses a terminal view rather than a graphical timeline, and provides approximate CDC-timed replay. Physical receiver/demo validation remains outstanding. The requirements below describe the broader design; consult the tool instructions for implemented behavior.
 
 ## Goal
 

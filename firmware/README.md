@@ -2,6 +2,8 @@
 
 USB serial control of an Olympia Infoglobe rotor through the external 555-based IR transmitter. Firmware controls **SIG only**, with no software carrier generation. Default output is **GP2**, idle LOW. HIGH enables the module's carrier.
 
+For the separately built receiver image and host analyzer, see [IR capture tools](../tools/README.md).
+
 ## Flash and connect
 
 Download the [prebuilt UF2](prebuilt/infoglobe_lab.uf2) using GitHub’s **Download raw file** button. This image uses GP2 for SIG. Its SHA-256 is recorded in [SHA256SUMS](prebuilt/SHA256SUMS). Local build output: `build/infoglobe_lab.uf2`. Hold BOOT while connecting USB (or use the board's BOOT/RESET buttons), then copy that UF2 to the `RPI-RP2` drive. After reboot, open its USB serial port in a terminal with local echo enabled. Select 115200 baud and LF or CRLF line endings; USB CDC does not use the selected baud rate for transmission timing. Type `help` to see commands. The firmware does not wait for a serial connection to start.
